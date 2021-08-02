@@ -17,7 +17,6 @@ export default function Todo() {
         //set task list apply filter on current task and sort it on the basis of id.
         SetTaskList((taskList)=>taskList.filter((currTask)=>currTask.id!=id))
     }
-    console.log(taskList);
     return (
         <div>
             {/*input container*/}
